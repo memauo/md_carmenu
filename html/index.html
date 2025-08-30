@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="cont" id="cont">
+            <div class="sp"></div>
+            <div class="row">
+                <div class="block" onclick="engine()"><img src="img/e.png" class="img"></div>
+            </div>
+            <div class="row">
+                <div class="block" onclick="rollWindow(0)"><img src="img/w.png" class="img"></div>
+                <div class="block" onclick="openDoor(0)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="openDoor(1)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="rollWindow(1)"><img src="img/w.png" class="img"></div>
+                <div class="block2" onclick="openDoor(4)"><img src="img/h.png" class="img"></div>
+                <div class="block2" onclick="changeSeat(-1)"><img src="img/s.png" class="img"></div>
+                <div class="block" onclick="changeSeat(0)"><img src="img/s.png" class="img"></div>
+            </div>
+            <div class="row">
+                <div class="block" onclick="rollWindow(2)"><img src="img/w.png" class="img"></div>
+                <div class="block" onclick="openDoor(2)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="openDoor(3)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="rollWindow(3)"><img src="img/w.png" class="img"></div>
+                <div class="block2" onclick="openDoor(5)"><img src="img/t.png" class="img"></div>
+                <div class="block2" onclick="changeSeat(1)"><img src="img/s.png" class="img"></div>
+                <div class="block" onclick="changeSeat(2)"><img src="img/s.png" class="img"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
