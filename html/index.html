@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Bhaiksuki&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="cont" id="cont">
+
+            <div class="row">
+                <div class="block" onclick="rollWindow(0)"><img src="img/w.png" class="img"></div>
+                <div class="block" onclick="openDoor(0)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="openDoor(1)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="rollWindow(1)"><img src="img/w.png" class="img"></div>
+                <div class="block2" onclick="openDoor(4)"><img src="img/h.png" class="img"></div>
+                <div class="block2" onclick="changeSeat(-1)"><img src="img/s.png" class="img"></div>
+                <div class="block" onclick="changeSeat(0)"><img src="img/s.png" class="img"></div>
+            </div>
+            <div class="row">
+                <div class="block" onclick="rollWindow(2)"><img src="img/w.png" class="img"></div>
+                <div class="block" onclick="openDoor(2)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="openDoor(3)"><img src="img/d.png" class="img"></div>
+                <div class="block" onclick="rollWindow(3)"><img src="img/w.png" class="img"></div>
+                <div class="block2" onclick="openDoor(5)"><img src="img/t.png" class="img"></div>
+                <div class="block2" onclick="changeSeat(1)"><img src="img/s.png" class="img"></div>
+                <div class="block" onclick="changeSeat(2)"><img src="img/s.png" class="img"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
